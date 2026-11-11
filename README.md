@@ -16,7 +16,7 @@ Open http://127.0.0.1:4173. The preview server binds only to localhost. Any stat
 
 Publish the contents of `dist/` with any static host. No install or build command is required. Relative asset links also support deployment below a subpath.
 
-`.openai/hosting.json` records the private Sites preview and its static directory. The GitHub repository is the editable source of this site.
+`.openai/hosting.json` records a registered private Sites project and its static directory. Registration alone does not publish the site. The GitHub repository is the editable source of this site.
 
 ## Edit
 
